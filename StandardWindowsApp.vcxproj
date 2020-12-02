@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>CengaGame</ProjectName>
+    <ProjectName>SelSor-2</ProjectName>
     <ProjectGuid>{4E46194A-E457-478E-BAA2-DF43C2D26BAE}</ProjectGuid>
-    <RootNamespace>StandardWindowsApp</RootNamespace>
+    <RootNamespace>SelSor-2</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -88,7 +88,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CengaGame.cpp" />
+    <ClCompile Include="SelSor.cpp" />
     <ClCompile Include="Data\GameLoader.cpp" />
     <ClCompile Include="Data\IniReader.cpp" />
     <ClCompile Include="Data\ParamLoader.cpp" />
