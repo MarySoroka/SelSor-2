@@ -64,11 +64,11 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 	}
 
 	// Create the main window:
-	hWnd = CreateWindow("Window", "Cengaver The Prism Operation", WS_SYSMENU | WS_BORDER | WS_MINIMIZEBOX,
+	hWnd = CreateWindow("Window", "SelSor-2", WS_SYSMENU | WS_BORDER | WS_MINIMIZEBOX,
 		GetSystemMetrics(SM_CXSCREEN) / 2 - WINDOWWIDTH / 2, GetSystemMetrics(SM_CYSCREEN) / 2 - WINDOWHEIGHT / 2, WINDOWWIDTH, WINDOWHEIGHT, NULL, NULL, hInstance, NULL);
 
 	// Create the splash window:
-	hWndSplash = CreateWindow("Window", "Cengaver Splash", WS_POPUPWINDOW | WS_EX_TOPMOST,
+	hWndSplash = CreateWindow("Window", "SelSor-2", WS_POPUPWINDOW | WS_EX_TOPMOST,
 		GetSystemMetrics(SM_CXSCREEN) / 2 - 576 / 2, GetSystemMetrics(SM_CYSCREEN) / 2 - 320 / 2, 576, 320, hWnd, NULL, hInstance, NULL);
 
 	if (!hWnd)
